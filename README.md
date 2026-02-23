@@ -1,11 +1,11 @@
-🎟️ Ticket Sales – Sistema de Venda de Ingressos
+Sistema de Venda de Ingressos
 
 Este repositório reúne o backend (microsserviço de vendas) e o frontend web do sistema Ticket Sales, desenvolvido como atividade prática da disciplina Sistemas Web II (CSI607).
 A aplicação tem como objetivo gerenciar usuários, eventos e vendas de ingressos, oferecendo tanto uma API REST quanto uma interface web para clientes e administradores.
 
-Aluno(a): Beatriz Dalfior – 22.1.8012
+Aluno(a): Marco Nazaré – 22.1.8034
 
-🧩 Visão Geral da Arquitetura
+ Visão Geral da Arquitetura
 
 O projeto é composto por:
 
@@ -31,14 +31,14 @@ Infraestrutura
 
 Orquestração via Docker Compose
 
-🚀 Inicialização do Projeto
-🔧 Pré-requisitos
+ Inicialização do Projeto
+ Pré-requisitos
 
 Docker Desktop em execução
 
 Node.js e npm (para rodar o frontend isoladamente, se desejado)
 
-▶️ Subindo toda a aplicação (Backend + Frontend)
+▶ Subindo toda a aplicação (Backend + Frontend)
 
 Acesse a pasta docker
 
@@ -54,7 +54,7 @@ Frontend web
 
 Gateway
 
-▶️ Rodando apenas o Frontend
+▶ Rodando apenas o Frontend
 
 Caso queira iniciar somente o frontend:
 
@@ -62,9 +62,9 @@ cd frontend
 npm install
 npm run dev
 
-⚠️ Atenção: o backend precisa estar em execução para que o frontend funcione corretamente.
+ Atenção: o backend precisa estar em execução para que o frontend funcione corretamente.
 
-🌐 Backend – API do Microsserviço de Vendas
+ Backend – API do Microsserviço de Vendas
 
 URL Base:
 
@@ -72,7 +72,7 @@ http://localhost:4000
 
 A API é responsável pelo gerenciamento de Usuários, Eventos e Vendas.
 
-👤 Usuários (/users)
+ Usuários (/users)
 
 Representa os usuários do sistema, que podem ser CLIENTE ou ADMIN.
 
@@ -110,7 +110,7 @@ Deletar usuário
 
 DELETE /users/{id}
 
-🎫 Eventos (/events)
+ Eventos (/events)
 
 Responsável pelo cadastro e consulta de eventos disponíveis para venda.
 
@@ -142,7 +142,7 @@ Deletar evento
 
 DELETE /events/{id}
 
-💳 Vendas (/sales)
+ Vendas (/sales)
 
 Controla a compra de ingressos vinculando usuários a eventos.
 
@@ -180,7 +180,7 @@ Deletar venda
 
 DELETE /sales/{id}
 
-🖥️ Frontend Web – Ticket Sales
+ Frontend Web – Ticket Sales
 
 O frontend fornece a interface visual para interação com a API, incluindo:
 
@@ -200,8 +200,8 @@ Shadcn/ui
 
 ESLint
 
-🔐 Funcionalidades do Sistema
-🔑 Acesso Administrativo (/admin)
+ Funcionalidades do Sistema
+ Acesso Administrativo (/admin)
 
 Para acessar o painel administrativo, é necessário possuir um usuário do tipo ADMIN.
 
@@ -216,7 +216,7 @@ Content-Type: application/json
   "city": "Belo Horizonte",
   "type": "ADMIN"
 }
-📋 Páginas Disponíveis
+ Páginas Disponíveis
 1. Eventos (Admin) – /admin/events
 
 Listar eventos
