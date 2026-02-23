@@ -81,10 +81,10 @@ Criar usuário
 POST /users
 
 {
-  "name": "Fulana da Silva",
-  "email": "fulana@example.com",
-  "password": "senha_segura_123",
-  "city": "São Paulo",
+  "name": "Rogeria da Costa",
+  "email": "RCosta@example.com",
+  "password": "senha_safea_124",
+  "city": "Joao Monlevade",
   "type": "CLIENTE"
 }
 Listar usuários
@@ -100,10 +100,10 @@ Atualizar usuário
 PUT /users/{id}
 
 {
-  "name": "Sachi Nanjou",
-  "email": "novo@email.com",
-  "password": "nova_senha",
-  "city": "Rio de Janeiro",
+  "name": "Roger Guedes",
+  "email": "RogerG@email.com",
+  "password": "new_pass",
+  "city": "Nova Lima",
   "type": "ADMIN"
 }
 Deletar usuário
@@ -119,12 +119,12 @@ Criar evento
 POST /events
 
 {
-  "description": "Show da Banda X",
+  "description": "Set Dom Dolla",
   "type": "SHOW",
-  "date": "2026-12-25T20:00:00",
-  "startSales": "2026-11-01T09:00:00",
-  "endSales": "2026-12-24T23:59:59",
-  "price": 150.75
+  "date": "2026-06-14T03:00:00",
+  "startSales": "2026-03-01T09:00:00",
+  "endSales": "2026-06-13T23:59:59",
+  "price": 190.99
 }
 Listar eventos
 
@@ -212,7 +212,7 @@ Content-Type: application/json
 {
   "name": "Admin",
   "email": "admin@teste.com",
-  "password": "admin1234",
+  "password": "admin0000",
   "city": "Belo Horizonte",
   "type": "ADMIN"
 }
